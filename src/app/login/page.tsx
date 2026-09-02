@@ -82,8 +82,11 @@ export default function LoginPage() {
             disabled={loading}
             className="w-full py-4 bg-primary text-primary-foreground font-semibold rounded-xl hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center"
           >
-            {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : "Sign In"}
+            {loading ? <Loader2 className="w-5 h-5 animate-spin mx-auto" /> : "Sign In"}
           </button>
+          <p className="text-xs text-center text-red-500 mt-2">
+            Debug URL: {process.env.NEXT_PUBLIC_SUPABASE_URL || "MISSING"}
+          </p>
         </form>
       </div>
     </main>
