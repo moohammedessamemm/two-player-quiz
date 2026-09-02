@@ -12,7 +12,7 @@ export default function LandingPage() {
         
         <div className="inline-flex items-center space-x-2 bg-rose-500/10 border border-rose-500/20 px-4 py-1.5 rounded-full text-sm font-medium text-rose-200 mb-4 animate-pulse">
           <Sparkles className="w-4 h-4 text-rose-400" />
-          <span>Just for Mohammed & Shahd ❤️</span>
+          <span>Just for Shahd ❤️</span>
         </div>
 
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-rose-100 to-rose-300">
