@@ -84,9 +84,6 @@ export default function LoginPage() {
           >
             {loading ? <Loader2 className="w-5 h-5 animate-spin mx-auto" /> : "Sign In"}
           </button>
-          <p className="text-xs text-center text-red-500 mt-2">
-            Debug URL: {process.env.NEXT_PUBLIC_SUPABASE_URL || "MISSING"}
-          </p>
         </form>
       </div>
     </main>
